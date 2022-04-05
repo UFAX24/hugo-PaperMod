@@ -1,5 +1,5 @@
 baseURL: "https://pnckdevapp.com/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: SITE-SEO
+title: SEO คือ Search Engine Optimize การสร้างเว็บไซต์ให้มีประสิทธิภาพ และรองรับการติดอันดับบน Google
 paginate: 5
 # theme: hugo-PaperMod
 
@@ -22,57 +22,57 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Archive
+                - name: บทความ
                   url: archives
                   weight: 5
-                - name: Search
+                - name: ค้นหา
                   url: search/
                   weight: 10
                 - name: Tags
                   url: tags/
                   weight: 10
-                - name: Categories
-                  url: categories/
+                - name: ดูหนังAV
+                  url: https://avfreex24.com/kissme/
                   weight: 10
 
-    th:
-        languageName: "th"
-        languageAltTitle: Thailand
-        weight: 2
-        title: SITE-SEO
-        profileMode:
-            enabled: true
-            title: SITE-SEO
-            imageUrl: "/logo.svg"
-            imageTitle: my image
-            imageWidth: 120
-            imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: Tags
-                  url: tags
-        menu:
-            main:
-                - name: Archive
-                  url: archives/
-                  weight: 5
-                - name: Tags
-                  url: tags
-                  weight: 10
-                - name: Categories
-                  url: categories
-                  weight: 10
-                - name: Series
-                  url: series
-                  weight: 10
-                - name: NullLink
-                  url: "#"
-                - name: NullLink2
-                  url: "#"
-                - name: NullLink3
-                  url: "#"
+    # th:
+    #     languageName: "th"
+    #     languageAltTitle: Thailand
+    #     weight: 2
+    #     title: เทคนิคการทำ Search Engine Optimize 
+    #     profileMode:
+    #         enabled: true
+    #         title: SITE-SEO
+    #         imageUrl: "/logo.svg"
+    #         imageTitle: SITE-SEO ราคา.net
+    #         imageWidth: 120
+    #         imageHeight: 120
+    #         subtitle: "☄️ Search | ☁️ Engine | 🌙 Optimize | 📱 Google"
+    #         buttons:
+    #             - name: Blog
+    #               url: posts
+    #             - name: Tags
+    #               url: tags
+    #     menu:
+    #         main:
+    #             - name: Archive
+    #               url: archives/
+    #               weight: 5
+    #             - name: Tags
+    #               url: tags
+    #               weight: 10
+    #             - name: Categories
+    #               url: categories
+    #               weight: 10
+    #             - name: Series
+    #               url: series
+    #               weight: 10
+    #             - name: 100เรื่อง
+    #               url: "https://100เรื่อง.com/"
+    #             - name: PNCKDEVAPP
+    #               url: "https://pnckdevapp.com/"
+    #             - name: NullLink3
+    #               url: "#"
 
 outputs:
     home:
@@ -82,11 +82,11 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "ทำให้เว็บไซต์ของคุณติดอันดับอยู่ในลำดับต้นๆ ของผลการค้นหา ด้วยคีย์เวิร์ดหรือคำค้นหาที่คุณต้องการและเกี่ยวข้องกับธุรกิจของคุณ"
+    author: PNCKDEVAPP
 
-    defaultTheme: auto
-    # disableThemeToggle: true
+    defaultTheme: light
+    disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
     # disableSpecial1stPost: true
@@ -100,27 +100,27 @@ params:
 
     profileMode:
         enabled: true
-        title: PaperMod
+        title: สร้างเว็บไซต์ให้มีประสิทธิภาพ และรองรับการติดอันดับบน Google
         imageUrl: "/logo.svg"
-        imageTitle: my image
+        imageTitle: อันดับ Google
         imageWidth: 520
         # imageHeight: 120
         buttons:
-            - name: Archives
+            - name: บทความ
               url: archives
-            - name: Tags
+            - name: ประเภท
               url: tags
 
-    homeInfoParams:
-        Title: "PaperMod"
-        Content: >
-            Welcome to demo of hugo's theme PaperMod.
+    # homeInfoParams:
+    #     Title: "PaperMod"
+    #     Content: >
+    #         Welcome to demo of hugo's theme PaperMod.
 
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+    #         - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
 
-            - Do give a 🌟 on Github !
+    #         - subtitle: "☄️ Search | ☁️ Engine | 🌙 Optimize | 📱 Google"
 
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+    #         - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
 
     socialIcons:
         #- name: github
@@ -153,8 +153,8 @@ params:
 
     cover:
         hidden: false # hide everywhere but not in structured data
-        # hiddenInList: true # hide on list pages and home
-        # hiddenInSingle: true # hide on single page
+        hiddenInList: false # hide on list pages and home
+        hiddenInSingle: false # hide on single page
 
     fuseOpts:
         isCaseSensitive: true
@@ -205,6 +205,3 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
-
-timeout: 30000
-enableInlineShortcodes: true
