@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /tags/
 Disallow: /categories/
 {{- end }}
-Sitemap: {{ "sitemap.xml" | absURL }}
+Sitemap: {{ "index.xml" | absURL }}
