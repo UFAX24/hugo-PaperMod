@@ -1,4 +1,4 @@
-baseURL: "https://ราคา.net/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "http://localhost:1313" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: SEO คือ Search Engine Optimize การสร้างเว็บไซต์ให้มีประสิทธิภาพ และรองรับการติดอันดับบน Google
 paginate: 5
 # theme: hugo-PaperMod
