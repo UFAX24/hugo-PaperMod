@@ -36,7 +36,7 @@ languages:
                   weight: 10
 
     th:
-        languageName: ":th:"
+        languageName: "th"
         languageAltTitle: Thailand
         weight: 2
         title: SITE-SEO
