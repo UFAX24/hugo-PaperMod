@@ -12,6 +12,10 @@ enableEmoji: true
 pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 
+blackfriday:
+  angledQuotes: true
+  hrefTargetBlank: true
+
 minify:
     disableXML: true
     minifyOutput: true
@@ -108,7 +112,7 @@ params:
         buttons:
             - name: บทความ
               url: archives
-            - name: ประเภท
+            - name: Tags
               url: tags
 
     # homeInfoParams:
