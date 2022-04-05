@@ -2,7 +2,7 @@ baseURL: "https://ราคา.net/" # if your site is in 'https', then make sur
 title: SEO คือ Search Engine Optimize การสร้างเว็บไซต์ให้มีประสิทธิภาพ และรองรับการติดอันดับบน Google
 paginate: 5
 # theme: hugo-PaperMod
-
+defaultContentLanguage: en
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
